@@ -15,7 +15,6 @@ const Contact = () => {
         e.preventDefault();
         console.log('Submitted Contact Info:', contact);
         alert(`Name: ${contact.name}\nPhone: ${contact.phone}`);
-        // Here you can add code to handle the form submission, like sending the data to a server
     };
 
     return (

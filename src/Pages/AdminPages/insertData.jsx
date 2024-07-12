@@ -57,7 +57,7 @@ const AdminPage = () => {
   };
 
   return (
-    <div>
+    <div className='insert_container'>
       <h1 className='heading1'>ADD DETAILS OF THE PRODUCT</h1>
         <form className="formInsert" onSubmit={submitHandler}>
           <input type='text' name='name' value={name} onChange={changeHandler} placeholder="Name" /><br/>

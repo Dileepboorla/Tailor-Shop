@@ -1,23 +1,24 @@
-.heading1{
-    margin-left: 480px;
-    margin-top: 20px;
+.insert_container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-
 .formInsert {
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 300px;
-    text-align: center;
-    margin-left: 600px; 
     margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 input[type="text"], input[type="file"] {
     width: 100%;
     padding: 10px;
-    margin: 10px 0;
+    margin: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
@@ -36,10 +37,4 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #45a049;
-}
-
-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
