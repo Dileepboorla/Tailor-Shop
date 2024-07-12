@@ -5,12 +5,11 @@ nav{
     align-items: center;
     position: sticky;
     top: 0%;
-    width: auto;
 }
 nav li a{
     color: white;
     text-decoration: none;
-    list-style: none;
+    list-style-type: none;
     padding: 0.5rem;
 }
 .heading{
